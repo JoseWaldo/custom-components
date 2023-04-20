@@ -1,0 +1,42 @@
+.inputContainer {
+    position: relative;
+    width: 100%;
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.input {
+    width: 100%;
+    padding: .7rem;
+    border: 1px solid var(--gren-yellow);
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--gren-yellow);
+    outline: none;
+    border-radius: 8px;
+}
+
+.span {
+    position: absolute;
+    text-transform: uppercase;
+    color: var(--gren-yellow);
+    border-radius: 2px;
+    left: .7rem;
+    top: .7rem;
+    transition: .5s ease;
+}
+
+.input:valid ~ .span,
+.input:focus ~ .span 
+{
+    transform: translateY(-1.6rem);
+    font-size: .9rem;
+    padding: 2px 4px;
+    background-color: var(--gren-yellow);
+    color: var(--black);
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}

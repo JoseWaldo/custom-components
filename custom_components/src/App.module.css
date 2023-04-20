@@ -11,3 +11,7 @@ body {
     gap: 2rem;
     height: 100vh;
 }
+
+.input {
+    width: 15rem;
+}
