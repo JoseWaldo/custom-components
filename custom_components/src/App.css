@@ -1,1 +1,13 @@
+body {
+    height: 100vh;
+    background-color: var(--black);
+}
 
+.appContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
