@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gren-yellow: #D5FF40;
+    --black: #121011;
+    --dark-grey: #333333;
+    --white: #fff;
+    --ligth-grey: #999999;
+    /*
+    - Regular 400.
+    */
+    --font-main: 'Days One', sans-serif; 
+    /*
+    - Regular 400.
+    - SemiBold 600.
+    - Bold 700.
+    */
+    --font-secondary: 'Darker Grotesque', sans-serif;
+}
